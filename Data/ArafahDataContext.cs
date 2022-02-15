@@ -12,5 +12,7 @@ namespace Arafah_Honey.Data
         public ArafahDataContext(DbContextOptions<ArafahDataContext> options) : base(options) { }
 
         public DbSet<Neracas> tbl_mst_neraca { get; set; }
+
+        public DbSet<User> tbl_mst_user { get; set; }
     }
 }
